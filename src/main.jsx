@@ -34,7 +34,7 @@ i18n
 createRoot(document.getElementById("root")).render(
   <BrowserRouter>
     <StrictMode>
-      <App />
+      <App  />
     </StrictMode>
   </BrowserRouter>
 );

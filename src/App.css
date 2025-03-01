@@ -1,0 +1,43 @@
+  /* Scroll barni stilizatsiya qilish */
+  .panel_scrool::-webkit-scrollbar {
+      width: 15px;
+      /* Scroll bar kengligi */
+  }
+
+  .panel_scrool::-webkit-scrollbar-thumb {
+      background-color: #686b68;
+      /* Scroll bar'ning yadro rangi */
+      border-radius: 10px;
+  }
+
+  .panel_scrool::-webkit-scrollbar-track {
+      background: #4d4d4d;
+      /* Scroll bar yo'lining rangi */
+  }
+
+  .panel_scrool::-webkit-scrollbar-thumb:hover {
+      background-color: #555;
+      /* Hover holatidagi rang */
+  }
+
+
+/* App.css yoki boshqa CSS faylida */
+.panel_scrool a {
+    display: block;
+    transition: transform 0.3s ease-out; /* Animatsiya va o'lchamni o'zgartirish uchun */
+  }
+  
+  .panel_scrool a:hover {
+    transform: scale(1.05); /* Hover qilinganida kattalashish */
+  }
+  
+  /* Scroll bo'lganda o'lchamni o'zgartirish */
+  .panel_scrool a {
+    transform: scale(1);
+    transition: transform 0.3s ease-out;
+  }
+  
+  .panel_scrool a.scroll-scale {
+    transform: scale(1.1); /* Scroll bo'lgan sari kattalashadi */
+  }
+  

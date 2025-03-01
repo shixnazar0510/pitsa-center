@@ -1,22 +1,22 @@
 import React from "react";
 import Panel from "./Components/Panel";
 import Navbar from "./Components/Navbar";
-
+import Panelitem1 from './Panelitem/novinka' 
 import { Route, Routes } from "react-router-dom";
+import Zal from "./pages/zal/zal.jsx";
+import Saboy from "./pages/saboy/saboy.jsx";
 import Home from "./pages/home/home.jsx";
 
 const App = () => {
   return (
-    <div className="scroll-m-0 snap-none">
-      <div className="flex items-start justify-between">
-        <Panel />
-        <div className="container bg-[#F9F8F6]/50">
-          <Navbar />
-          <Routes>
-            <Route exact path="/" element={<Home />} />
-          </Routes>
-        </div>
-      </div>
+    <div className="">
+      <Routes>
+        <Route exact  path="/" element={<Home />} />
+        <Route  path="/zal" element={<Zal />} >
+        
+        </Route><Route  path="/new" element={<Panelitem1 />} />
+        <Route  path="/saboy" element={<Saboy />} />
+      </Routes>
     </div>
   );
 };

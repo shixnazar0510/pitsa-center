@@ -1,7 +1,12 @@
 {
-    "panel":{
-        "new":"Yangi elementlar",
-        "mashhur":"Mashhur",
-        "pizza":"Pitsa"
+    "home": {
+        "buyurtma": "Buyurtma qanday bo'lsin?",
+        "zal":"Zalda yeyish",
+        "ketish":"Olib ketish"
+    },
+    "panel": {
+        "new": "Yangi elementlar",
+        "mashhur": "Mashhur",
+        "pizza": "Pitsa"
     }
 }

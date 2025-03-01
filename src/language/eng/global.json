@@ -1,4 +1,9 @@
 {
+    "home": {
+        "buyurtma": "What is the order?",
+        "zal": "Eat in the hall",
+        "ketish": "Take away"
+    },
     "panel": {
         "new": "New items",
         "mashhur": "Popular",
