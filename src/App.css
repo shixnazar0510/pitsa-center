@@ -1,43 +1,37 @@
-  /* Scroll barni stilizatsiya qilish */
-  .panel_scrool::-webkit-scrollbar {
-      width: 15px;
-      /* Scroll bar kengligi */
-  }
+@import url('https://fonts.googleapis.com/css2?family=Figtree:ital,wght@0,300..900;1,300..900&family=Fira+Sans:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&family=Work+Sans:ital,wght@0,100..900;1,100..900&display=swap');
 
-  .panel_scrool::-webkit-scrollbar-thumb {
-      background-color: #686b68;
-      /* Scroll bar'ning yadro rangi */
-      border-radius: 10px;
-  }
+body {
+  font-family: url(https://fonts.googleapis.com/css2?family=Noto+Sans+TC:wght@100;200;300;400;500;600;800;900&display=swap);
+  font-family: 'Noto Sans TC', sans-serif;
+}
 
-  .panel_scrool::-webkit-scrollbar-track {
-      background: #4d4d4d;
-      /* Scroll bar yo'lining rangi */
-  }
+html {
 
-  .panel_scrool::-webkit-scrollbar-thumb:hover {
-      background-color: #555;
-      /* Hover holatidagi rang */
-  }
+  scroll-behavior: smooth;
+ 
+}
 
+.nav_text {
+  font-family: url(https://fonts.googleapis.com/css2?family=Chewy&display=swap);
+  font-weight: 800;
+  font-family: 'Chewy', display;
 
-/* App.css yoki boshqa CSS faylida */
-.panel_scrool a {
-    display: block;
-    transition: transform 0.3s ease-out; /* Animatsiya va o'lchamni o'zgartirish uchun */
-  }
-  
-  .panel_scrool a:hover {
-    transform: scale(1.05); /* Hover qilinganida kattalashish */
-  }
-  
-  /* Scroll bo'lganda o'lchamni o'zgartirish */
-  .panel_scrool a {
-    transform: scale(1);
-    transition: transform 0.3s ease-out;
-  }
-  
-  .panel_scrool a.scroll-scale {
-    transform: scale(1.1); /* Scroll bo'lgan sari kattalashadi */
-  }
-  
+}
+
+/* Scroll barni stilizatsiya qilish */
+.panel_scrool::-webkit-scrollbar {
+  width: 15px;
+  /* Scroll bar kengligi */
+}
+
+.panel_scrool::-webkit-scrollbar-thumb {
+  background-color: #2d2f2d;
+  /* Scroll bar'ning yadro rangi */
+  border-radius: 10px;
+}
+
+.panel_scrool::-webkit-scrollbar-track {
+  background: #6b6b6b;
+  /* Scroll bar yo'lining rangi */
+}
+

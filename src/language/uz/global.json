@@ -1,12 +1,14 @@
 {
     "home": {
         "buyurtma": "Buyurtma qanday bo'lsin?",
-        "zal":"Zalda yeyish",
-        "ketish":"Olib ketish"
+        "zal": "Zalda yeyish",
+        "ketish": "Olib ketish"
     },
     "panel": {
         "new": "Yangi elementlar",
         "mashhur": "Mashhur",
-        "pizza": "Pitsa"
+        "pizza": "Pitsa",
+        "burger":"Burgerlar",
+        "water": "Yahna ichimliklar"
     }
 }

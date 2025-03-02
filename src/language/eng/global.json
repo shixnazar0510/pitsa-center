@@ -7,6 +7,8 @@
     "panel": {
         "new": "New items",
         "mashhur": "Popular",
-        "pizza": "Pizza"
+        "pizza": "Pizza",
+        "burger": "Burgers",
+        "water": "Soup drinks"
     }
 }
